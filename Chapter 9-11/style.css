@@ -1,0 +1,20 @@
+body{
+    background-color: rgb(218, 88, 157);
+
+}
+
+
+.tab{
+    border: none;
+    margin: auto;
+    padding: 30px;
+    width: 600px;
+    height: 300px;
+    text-align: center;
+    box-shadow: 10px 10px 5px 12px rgb(228, 171, 221);
+    background-color: rgb(178, 96, 145);
+    color: white;
+}
+h2{
+    font-size: 50px;
+}
