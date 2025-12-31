@@ -92,11 +92,6 @@ var marksobtained = +prompt("enter your obtained marks in three subjects")
 var percentage = (marksobtained / total) * 100
 percentage = percentage;
 
-document.write("<h2>" + "MarkSheet" + "</h2>" + "<br>");
-document.write("Total Marks : " + total + "<br>");
-document.write("Obtained Marks : " + marksobtained + "<br>");
-document.write("Percentage : " + percentage + "%" + "<br>");
-
 var grade;
 var remarks;
 if (percentage >= 90) {
@@ -115,6 +110,10 @@ else {
     grade = "Fail"
     remarks = "Sorry"
 }
+document.write("<h2>" + "MarkSheet" + "</h2>" + "<br>");
+document.write("Total Marks : " + total + "<br>");
+document.write("Obtained Marks : " + marksobtained + "<br>");
+document.write("Percentage : " + percentage + "%" + "<br>");
 document.write("Grade : " + grade + "<br>")
 document.write("Remarks : " + remarks + "<br>")
 
