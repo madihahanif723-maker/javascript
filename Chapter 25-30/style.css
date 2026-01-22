@@ -1,0 +1,79 @@
+body {
+    background-color: #000000;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+.one {
+
+    border: 8px solid rgb(55, 152, 139);
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+    text-align: center;
+    margin: auto;
+}
+
+.two {
+    border: 8px solid rgb(55, 152, 139);
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+    text-align: center;
+    margin: auto;
+}
+
+.three {
+    border: 8px solid rgb(55, 152, 139);
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+    text-align: center;
+    margin: auto;
+}
+
+.four {
+    border: 8px solid rgb(55, 152, 139);
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+    text-align: center;
+    margin: auto;
+}
+
+.five {
+    border: 8px solid rgb(55, 152, 139);
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+    text-align: center;
+    margin: auto;
+}
+
+.six {
+    border: 8px solid rgb(55, 152, 139);
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+    text-align: center;
+    margin: auto;
+}
+
+.seven {
+    border: 8px solid rgb(55, 152, 139);
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+    text-align: center;
+    margin: auto;
+}
+
+.eight {
+    border: 8px solid rgb(55, 152, 139);
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+    text-align: center;
+    margin: auto;
+}
