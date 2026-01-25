@@ -1,0 +1,18 @@
+body {
+    background-color: #000000;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+div {
+
+    border: 8px solid rgb(209, 53, 53);
+    padding: 20px;
+    border-radius: 30px;
+    width: 800px;
+    text-align: center;
+    margin: auto;
+    font-size: 20px;
+    f
+}
