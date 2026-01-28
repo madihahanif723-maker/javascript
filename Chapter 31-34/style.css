@@ -1,6 +1,6 @@
 body {
-    background-color: #000000;
-    color: #ffffff;
+    background-color: #fdfdfd;
+    color: #000000;
     font-family: Arial, sans-serif;
     padding: 20px;
 }
@@ -14,5 +14,6 @@ div {
     text-align: center;
     margin: auto;
     font-size: 20px;
-    f
+    box-shadow:  0 0 10px rgba(255, 0, 0, 0.7);
+    
 }
