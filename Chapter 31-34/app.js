@@ -125,7 +125,7 @@ document.write("<div>")
 
 var today = new Date();
 var today = today.getTime();
-var lastRamadan = new Date("feb 19 , 2026");
+var lastRamadan = new Date("feb 17 , 2026");
 var ramazan = lastRamadan.getTime();
 var diffmilliSec = today - ramazan;
 var daysPast = diffmilliSec / (1000 * 60 * 60 * 24);
