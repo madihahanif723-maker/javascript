@@ -1,0 +1,33 @@
+body {
+    background-color: #0e0e0e;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    
+}
+
+
+div {
+
+    border: 8px solid rgb(209, 53, 53);
+    padding: 20px;
+    border-radius: 30px;
+    width: 800px;
+    text-align: center;
+    margin: auto;
+    font-size: 20px;
+    box-shadow:  0 0 10px rgba(255, 0, 0, 0.7);
+    
+}
+div + div {
+    margin-top: 30px;
+}
+div:hover {
+    box-shadow:  0 0 20px rgba(255, 0, 0, 1);
+    
+}
+div:active {
+    box-shadow:  0 0 30px rgba(255, 0, 0, 1);
+    
+}
+
