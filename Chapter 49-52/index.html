@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <!-- Task 1 -->
+  <h1>Task 1</h1>
+
+  <div class="container">
+    <h1>Form</h1>
+    <label for="fn">Full Name :</label>
+    <input type="text" id="fn" required size="30" />
+
+    <br /><br />
+
+    <label for="father'n">Father Name :</label>
+    <input type="text" id="father'n" required size="30" />
+
+    <br /><br />
+
+    <label for="email">Email :</label>
+    <input type="email" name="email" id="email" required size="35" />
+
+    <br /><br />
+    <label for="phone">Phone:</label>
+    <input placeholder="xxxxxxxxxxx" type="number" name="phone" id="phone" required />
+
+    <br /><br />
+
+    <button onclick="resetForm()" type="reset" name="reset" value="Reset Form" class="five" id="resetBtn">
+      Reset Form</button>
+
+    <button onclick="submitForm()" type="submit" name="Submit" value="Submit Form" class="five" id="submitBtn">
+      Submit Form</button>
+
+    <br /><br />
+  </div>
+  <div class="container">
+    <div id="output" class="card">
+      <h2>Submitted Data:</h2>
+      <p id="outputName"></p>
+      <p id="outputFatherName"></p>
+      <p id="outputEmail"></p>
+      <p id="outputPhone"></p>
+
+    </div>
+  </div>
+  <br><br><br>
+
+  <!-- Task 2 -->
+  <h1>Task 2</h1>
+  <div class="content">
+    <div class="img">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQwUoumkQH6E_i3qjNcMHFabbhqyyXMEPr7OA&s"
+        alt="Placeholder Image" width="450" height="200">
+    </div>
+
+
+    <p id="paraText">I first climbed Tryfan in 1993 the day I was made redundant from a job in Chester. I drove over on
+      a summer’s evening without a map, compass or really a clue as to how to climb it but I did. 
+    </p>
+    <button id="link" onclick="expandText()">See more</button>
+  </div>
+
+  <br><br><br>
+  <!-- Task 3 -->
+  <h1>Task 3</h1>
+
+  <section>
+   <form class="auth" id="username"> 
+    <h1>Student <span class="green">Details</span></h1>
+        <input type="text" placeholder="Name" id="sname" required />
+        <input type="text" placeholder="Class" id="usernameClass" required />
+        <input type="number" placeholder="Age" id="age" required />
+        <input type="number" placeholder="Roll Number" id="num" required />
+
+        <button type="button" class="authBtn" onclick="addStuden()">
+          Submit
+        </button>
+      </form>
+  <table class="studenttable">
+     
+        <thead>
+      <tr>
+        <th>#</th>
+        <th>Name</th>
+        <th>Class</th>
+        <th>Age</th>
+        <th>Roll Number</th>
+        <th>Action</th>
+      </tr>
+    </thead>
+
+    <tbody id="tBody">     
+     </tbody>
+    
+  </table>
+</section>
+
+
+  <script src="app.js"></script>
+</body>
+
+</html>
